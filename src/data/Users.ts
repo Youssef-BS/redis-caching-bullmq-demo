@@ -1,0 +1,17 @@
+import { Users } from "../types/Users" ;
+
+export const users : Users = [
+    {
+        id : 1 ,
+        name : 'John Doe' ,
+        email : 'john.doe@example.com' ,
+        password : 'password123' ,
+
+    } ,
+    {
+        id : 2 ,
+        name : 'Jane Smith' ,
+        email : 'jane.smith@example.com' ,
+        password : 'password456' ,
+    }
+]
