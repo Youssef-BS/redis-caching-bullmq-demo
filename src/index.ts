@@ -1,9 +1,10 @@
 import express from "express"
 import userRoutes from "./routes/Users.route" ;
+import "./workers/email.worker" ;
 
 const app = express() ;
 
-const PORT = 3000 ;
+const PORT = process.env.PORT ;
 
 app.use(express.json()) ;
 

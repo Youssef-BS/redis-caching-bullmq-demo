@@ -1,5 +1,3 @@
-import { resolve } from "node:dns";
-
 export const sendWelcomeEmail = async (email: string, name: string): Promise<void> => {
 
     console.log(`Connecting to mail server to reach ${email}...`);
